@@ -34,7 +34,7 @@ function App() {
   return (
     /* onSubmit={laske} */
    <form >
-     <h3>Laske kalorikulutus</h3>
+     <h3>Laske kaloreiden kulutus</h3>
      <div>
      <label>Paino</label>
      <input type="number" value={paino} onChange={e => setPaino(e.target.value)}/>
